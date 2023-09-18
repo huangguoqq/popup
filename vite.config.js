@@ -2,7 +2,7 @@ module.exports = {
   build: {
     lib: {
       entry: 'src/index.js',
-      name: 'YourPackageName',
+      name: 'popup',
     },
     rollupOptions: {
       external: ['vue'], // 如果你的组件依赖了其他的库，可以在这里指定外部依赖
